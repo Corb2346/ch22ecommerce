@@ -21,5 +21,10 @@ public class CustomerController {
 		return customerService.getAllCustomers();
 	}
 	
+	@GetMapping("active")
+	public List<Customer> getAllActiveCustomers(){
+		return customerService.getAllActiveCustomers();
+	}
+	
 
 }
