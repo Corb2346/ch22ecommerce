@@ -27,7 +27,7 @@ public class Customer {
 	private String password; 
 	@Column( name="avatar", length = FIELDS_MAX_LENGTH)
 	private String avatar;
-	@Column( name="is_sctive", length = FIELDS_MAX_LENGTH)
+	@Column( name="is_active", length = FIELDS_MAX_LENGTH)
 	private boolean active;
 	
 }
